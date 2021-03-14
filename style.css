@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.global{
+    margin: 0;
+}
+.navbar{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.banner{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.banner img{
+    width: 100%;
+}
+hr{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    height: 6rem;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: lightgray !important;
+}
+#etItems{
+    font-size: 0.9rem;
+    margin-left: 3px;
+}
+.h-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+.link:hover{
+    text-decoration: none;
+}
+.h-left{
+    float: left;
+    padding-left: 2%;
+}
+.h-left h1{
+    font-family: 'Satisfy', cursive;
+    color: black;
+}
+.h-right{
+    display: flex;
+    align-items: center;
+    float: right;
+    padding-right: 3%;
+}
+.h-right p{
+    margin: 0;
+    padding: .5rem 1rem;
+    padding-left: 0;
+}
+.cat_name{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 16rem;
+    margin: 0.5rem;
+}
+.card-img-top{
+    height: 15vw;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+#divProductos{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#orderTable{
+    width: 100%;
+}
+.table thead tr th{
+    border: none;
+}
+#valorTotal{
+    font-weight: bold;
+}
+#orderTotal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.total-izq{
+    float: left;
+}
+.total-izq p{
+    margin-bottom: 0;
+}
+.total-der{
+    float: right;
+}
+.btnCancel{
+    margin: 2px !important;
+    background-color: #f3504d;
+    border-color: aqua;
+}
+.btnCancel:hover{
+    border-color: aqua;
+}
+.btnConfirm{
+    margin: 2px !important;
+    background-color: #f3eae2;
+    border-color: black;
+}
+.btnConfirm:hover{
+    border-color: aqua;
+}
+.btnTable{
+    background-color: #353A3F;
+    margin: 2px;
+    color: white;
+}
+.btnTable:hover{
+    color: lightgray;
+}
+.plus{
+    margin-left: 5px;
+}
+.pre{
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: #353A3F;
+    color: white !important;
+    border: none;
+    -webkit-appearance: none !important;
+}
+.btn-primary:hover{
+    background-color: gray;
+    border: none;
+    -webkit-appearance: none;
+}
+.des{
+    height: 288px;
+}
+.modal{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-footer{
+    display: block;
+    text-align: right;
+}
+.modalRojo{
+    background-color: #f3504d;
+    border-color: aqua;
+    margin: 0.3rem;
+}
+.modalBeige{
+    background-color: #f3eae2;
+    border-color: black !important;
+    color: black !important;
+    margin: 0.3rem;
+}

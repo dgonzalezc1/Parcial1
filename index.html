@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant & Lounge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+
+    <div class="global">
+        <!-- Encabezado -->
+        <div class="container-fluid" id="header">
+            <div class="row h-row">
+                <div class="h-left" id="nombre"><a class="link"><h1>Restaurant & Lounge</h1></a></div>
+                <div class="row h-right" id="divCarrito">
+                    <a class="link" href="#" id="carrito"><img src="img/carrito.png" alt="cart" width="45" height="45"></a>
+                    <!-- Items carrito se crean DOM -->
+                </div>
+            </div>
+        </div>
+
+        <hr class="solid">
+
+        <!-- Fotografía -->
+        <div class="banner">
+            <img src="img/burger.png" alt="burger">
+        </div>
+
+        <hr class="solid">
+
+        <!-- Menu navegacion -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto" id="listCat">
+                    <!-- Items nav se crean DOM -->
+                </ul>
+            </div>
+        </nav>
+
+        <hr class="solid">
+
+        <!-- Main -->
+        <div class="container-fluid" id="main">
+            <div class="cat_name" id="cat_name">
+                <!-- Titulo se escribe por DOM -->
+            </div>
+            <hr class="solid" id="temp">
+            <div class="row" id="divProductos">
+                <!-- Cards se crean por DOM -->
+              <!--  <div class="card">
+                    <img class="card-img-top" src="img/burger.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre</h5>
+                        <p class="card-text">Descrip</p>
+                        <p class="card-text">$</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Contact us: +57 3102105253 - info@restaurant.com - @restaurant</p>
+        </footer>
+
+
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="modal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Cancel the order</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" id="btCerrar">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Are you sure about cancelling the order?</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary modalBeige">Yes, I want to cancel the order</button>
+              <button type="button" class="btn btn-secondary modalRojo" data-dismiss="modal">No, I want to continue adding products</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <script src="app.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+</body>
+
+</html>
