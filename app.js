@@ -261,6 +261,8 @@ function handleResponse(list) {
       }
 
       document.getElementById("carrito").click(); 
+      const etItems = document.getElementById("etItems");
+      etItems.innerText = items + " items";
     }
   });
 
@@ -278,8 +280,10 @@ function handleResponse(list) {
 
           if(contentCarrito[i].quantity == 1) {
             contentCarrito.splice(i, 1);
+            items = items - 1;
           } else {
             contentCarrito[i].quantity = parseInt(contentCarrito[i].quantity) - 1;
+            items = items - 1;
           }
           break;
         }
@@ -290,6 +294,8 @@ function handleResponse(list) {
       }
 
       document.getElementById("carrito").click(); 
+      const etItems = document.getElementById("etItems");
+      etItems.innerText = items + " items";
     }
   });
 
